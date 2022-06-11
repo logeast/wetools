@@ -1,0 +1,1 @@
+# @wetools/svg2jsx
