@@ -14,7 +14,7 @@
     "start:dev": "pnpm --filter=@wetools/gh-pages run start",
     "test": "pnpm test:lint && pnpm test:unit",
     "test:unit": "vitest",
-    "test:lint": "eslint \"**/{src,pages,packs}/**/*.{js,ts,tsx}\"",
+    "test:lint": "eslint \"**/{src,pages,components}/**/*.{js,ts,tsx}\"",
     "build:packs": "pnpm --filter './packages/**' run build",
     "build:doc": "pnpm --filter=@wetools/gh-pages run build",
     "build:cache": "nx run-many --target=build --all --parallel",
