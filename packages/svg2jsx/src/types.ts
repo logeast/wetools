@@ -30,7 +30,3 @@ export type OptionsType = {
    */
   memo?: boolean;
 };
-
-declare const svg2jsx: (svg: string, options: OptionsType) => Promise<string>;
-
-export default svg2jsx;

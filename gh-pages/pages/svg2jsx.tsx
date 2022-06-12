@@ -9,3 +9,5 @@ const Index: NextPage = () => {
     </div>
   );
 };
+
+export default Index;
