@@ -8,7 +8,7 @@ export const Header = () => {
           <a className="block" href="./">
             <span className="text-gray-400 hover:text-white uppercase text-lg font-semibold">wetools</span>
           </a>
-          <a className="block text-gray-400 hover:text-white" target="_blank" href="./">
+          <a className="block text-gray-400 hover:text-white" target="_blank" href="https://github.com/logeast/wetools">
             <span className="sr-only">GitHub Reponsitory</span>
             <GitHubIcon />
           </a>

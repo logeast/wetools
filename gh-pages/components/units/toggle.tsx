@@ -29,14 +29,14 @@ export function Toggle(props: ToggleProps) {
           checked={enable}
           onChange={setEnable}
           className={classNames(
-            enable ? 'bg-blue-600' : 'bg-gray-300',
+            enable ? 'bg-blue-600' : 'bg-gray-800',
             'relative inline-flex h-5 w-10 items-center rounded-full transition-all',
           )}
         >
           <span
             className={classNames(
-              enable ? 'translate-x-5 bg-white' : 'translate-x-1 bg-gray-400',
-              'inline-block h-4 w-4 transform rounded-full transition-transform',
+              enable ? 'translate-x-6 bg-white' : 'translate-x-1 bg-gray-400',
+              'inline-block h-3 w-3 transform rounded-full transition-transform',
             )}
           />
         </Switch>
