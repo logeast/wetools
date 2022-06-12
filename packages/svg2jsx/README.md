@@ -19,13 +19,13 @@ pnpm add @wetools/svg2jsx
 # Usage
 
 ```ts
-svg2jsx(svg, config);
+svg2jsx(svg, options);
 ```
 
 ## Props
 
 - `svg: string` The svg string to be transformed.
-- `config?: {}`
+- `options?: {}`
   - `type?: functional | class` The type of the result component.
   - `lang?: jsx | tsx` The language of the result component.
   - `singleQuote?: boolean` Either double or single quotes in the result compoent.
