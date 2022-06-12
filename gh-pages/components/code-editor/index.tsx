@@ -16,7 +16,7 @@ export const CodeEditor = (props: CodeEditorProps) => {
 
   return (
     <CodeMirror
-      height="100vh"
+      height="calc(100vh - 64px - 48px)"
       extensions={[javascript({ jsx: true })]}
       theme="dark"
       value={value}
