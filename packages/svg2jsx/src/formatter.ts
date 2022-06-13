@@ -74,7 +74,7 @@ function getTemplate(svg: string, options: Pick<OptionsType, 'name' | 'type' | '
  *
  * @returns The string of the formatted component.
  */
-export function format(svg: string, options: OptionsType) {
+export function formatter(svg: string, options: OptionsType) {
   const compoent = getTemplate(svg, options);
   const formatted = prettier.format(compoent, {
     ...options,
@@ -84,4 +84,4 @@ export function format(svg: string, options: OptionsType) {
   return formatted;
 }
 
-export default format;
+export default formatter;
