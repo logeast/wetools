@@ -11,7 +11,7 @@
     "doc": "pnpm --filter=@wetools/gh-pages run dev",
     "start": "concurrently -n watch,doc \"pnpm watch\" \"pnpm doc\"",
     "start:all": "concurrently -n watch,doc \"pnpm watch:all\" \"pnpm doc\"",
-    "start:dev": "pnpm --filter=@wetools/gh-pages run start",
+    "start:doc": "pnpm --filter=@wetools/gh-pages run start",
     "test": "pnpm test:lint && pnpm test:unit",
     "test:unit": "vitest",
     "test:lint": "eslint \"**/{src,pages,components}/**/*.{js,ts,tsx}\"",
