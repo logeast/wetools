@@ -7,7 +7,7 @@ import CodeMirror from '@uiw/react-codemirror';
 
 type CodeEditorProps = {
   value: string;
-  onChange?: (value: unknown, viewUpdate: unknown) => void;
+  onChange?: (value: string, viewUpdate: unknown) => void;
   editable?: boolean;
 };
 
