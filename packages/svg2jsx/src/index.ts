@@ -1,8 +1,8 @@
-import { format } from './format';
+import { formatter } from './formatter';
 import { OptionsType } from './types';
 
 async function svg2jsx(svg: string, options: OptionsType): Promise<string> {
-  const formatted = format(svg, options);
+  const formatted = formatter(svg, options);
 
   return formatted;
 }

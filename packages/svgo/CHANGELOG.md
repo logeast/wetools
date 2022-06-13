@@ -1,1 +1,0 @@
-# @wetools/svgo

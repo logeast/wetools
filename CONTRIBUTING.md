@@ -17,7 +17,9 @@ After that,
 you may want to play with any packages,
 You can watch them through `pnpm --filter=@wetools/xxx start`.
 
-For example, `pnpm --filter=@wetools/svgo start`.
+For example, `pnpm --filter=@wetools/svg2jsx start`.
+
+Or you can run `pnpm start:all` to start all packages and doc.
 
 # Commands
 
